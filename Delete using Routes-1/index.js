@@ -51,26 +51,6 @@ app.delete("/cars/:id", (req, res) => {
     }
 })
 
-app.post("/cars/:id", (req, res) => {
-    const carId = parseInt(req.params.id)
-    const updatedCarData = req.body
-    res.json({message: updatedCarData})
-
-    const carToUpdate = cars.find((car) => car.id === carId)
-    if(!carToUpdate){
-        res.status(404).json({error: "Car not Found"})
-    }
-    else{
-        if(!updatedCarData.make || updatedCarData.model || !updatedCarData.year){
-            res.status(400).json({error: "Car make, model and year are required."})
-        }
-        else {
-            Object.assign(carToUpdate, updatedCarData)
-            res.status(200).json({message: "Car data updated successfully", car: carToUpdate})
-        }
-    }
-})
-
 const PORT = 3000
 app.listen(PORT, () => {
     console.log("Server is running on port", PORT)
