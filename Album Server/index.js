@@ -43,8 +43,25 @@ app.delete('/albums/:id', (req, res) => {
     }
 })
 
-app.post('/albums', (req, res) => {
-    
+app.post('/albums/:id', (req, res) => {
+    const albumId = parseInt(req.params.id)
+
+    const updatedAlbumData = req.body
+
+    const albumToUpdate = albums.find(album => album.id === albumId)
+
+    if(!albumToUpdate){
+        res.status(404).json({error: 'Album not found.'})
+    }
+    else{
+        if(!updatedAlbumData.title || !updatedAlbumData.artist || !updatedAlbumData.year){
+            res.status(400).json({error: 'Album title, artist and year are required.'})
+        }
+        else{
+            Object.assign(albumToUpdate, updatedAlbumData)
+            res.status(200).json({message: 'Album updated successfully.', album: albumToUpdate})
+        }
+    }
 })
 
 app.get('/albums', (req, res) => {
