@@ -101,7 +101,21 @@ app.delete('/todos/:id', (req,res) => {
     }
 })
 
+app.post('/todos/:id', (req, res) => {
+    const todoId = parseInt(req.params.id)
 
+    const updatedTodoData = req.body
+
+    const todoToUpdate = todos.find(todo => todo.id === todoId)
+
+    if(!todoToUpdate){
+        res.status(404).json({error: 'Todo not found.'})
+    }
+    else{
+        Object.assign(todoToUpdate, updatedTodoData)
+        res.status(200).json({message: 'Todo updated successfully', todo: todoToUpdate})
+    }
+})
 
 const PORT = 3000
 app.listen(PORT, () => {
