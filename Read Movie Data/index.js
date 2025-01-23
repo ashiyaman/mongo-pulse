@@ -31,7 +31,7 @@ async function createMovie(newMovie){
 
 //createMovie(newMovie)
 
-//Find a movie with a prticular title
+//Find a movie with a particular title
 
 const readMovieByTitle = async (movieTitle) => {
     try{

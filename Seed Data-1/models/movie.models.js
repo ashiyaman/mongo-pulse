@@ -20,6 +20,9 @@ const movieSchema = new mongoose.Schema({
     actors: [{
         type: String
     }],
+    director: {
+        type: String, required: true
+    },
     language: {
         type: String, required: true
     },
