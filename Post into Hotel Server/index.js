@@ -12,27 +12,6 @@ app.get('/', (req, res) => {
     res.send('Welcome to Hotel Server.')
 })
 
-  const newHotel = {
-    name: "Sunset Resort",
-    category: "Resort",
-    location: "12 Main Road, Anytown",
-    rating: 4.0,
-    reviews: [],
-    website: "https://sunset-example.com",
-    phoneNumber: "+1299655890",
-    checkInTime: "2:00 PM",
-    checkOutTime: "11:00 AM",
-    amenities: ["Room Service", "Horse riding", "Boating", "Kids Play Area", "Bar"],
-    priceRange: "$$$$ (61+)",
-    reservationsNeeded: true,
-    isParkingAvailable: true,
-    isWifiAvailable: true,
-    isPoolAvailable: true,
-    isSpaAvailable: true,
-    isRestaurantAvailable: true,
-    photos: ["https://example.com/hotel2-photo1.jpg", "https://example.com/hotel2-photo2.jpg"],
-  };
-  
   async function createHotel(newHotel) {
     try{
         const hotel = new Hotels(newHotel)
@@ -50,7 +29,7 @@ app.post('/hotels', async (req, res) => {
         res.status(200).json({message: 'New hotel added successfully', hotel: saveHotel})
     }
     catch{
-        res.status(500).json({error: 'Failed to add Movie.'})
+        res.status(500).json({error: 'Failed to add Hotel.'})
     }
 })
 

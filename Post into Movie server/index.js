@@ -11,6 +11,29 @@ app.get('/', (req, res) => {
     res.send('Welcome to Movie server')
 })
 
+async function createMovie(newMovie){
+    try{
+        const movie = new Movie(newMovie)
+        const saveMovie = await movie.save()
+        console.log("Movie saved", saveMovie)
+    }
+    catch(error){
+        throw error
+    }
+}
+
+app.post('/movies/', async (req, res) => {
+    try{
+        const movie = await createMovie(req.body)
+        if(movie){
+            res.status(200).json({message: 'Movie saved successfully.', movie: movie})
+        }
+    }
+    catch{
+        res.status(500).json({error: 'Failed to add Movie.'})
+    }
+}) 
+
 //Find a movie with a particular title
 
 const readMovieByTitle = async (movieTitle) => {
