@@ -5,6 +5,15 @@ const express = require('express')
 const {initializeDatabase} = require("./db/db.connect")
 const app = express()
 
+const cors = require("cors");
+const corsOptions = {
+  origin: "*",
+  credentials: true,
+  optionSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json())
 initializeDatabase()
 
@@ -13,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
   const newHotel = {
-    name: "Sunset Resort",
+    name: "New Hotel 1",
     category: "Resort",
     location: "12 Main Road, Anytown",
     rating: 4.0,
@@ -43,6 +52,8 @@ app.get('/', (req, res) => {
         throw error
     }
 }
+
+createHotel(newHotel)
 
 app.post('/hotels', async (req, res) => {
     try{

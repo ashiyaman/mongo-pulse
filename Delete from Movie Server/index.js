@@ -7,6 +7,15 @@ const Movie = require("./models/movie.models")
 app.use(express.json())
 initializeDatabase()
 
+const cors = require("cors");
+const corsOptions = {
+  origin: "*",
+  credentials: true,
+  optionSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
+
 app.get('/', (req, res) => {
     res.send('Welcome to Movie server')
 })
