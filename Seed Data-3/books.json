@@ -1,59 +1,124 @@
 [
-    {
+  {
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "publishedYear": 1960,
       "genre": ["Fiction", "Historical"],
       "language": "English",
       "country": "United States",
-      "rating": 8.9,
-      "summary": "A powerful story of racial injustice and moral growth in a small Southern town.",
-      "coverImageUrl": "https://example.com/to_kill_a_mockingbird.jpg"
-    },
-    {
+      "rating": 9,
+      "summary": "A novel about the serious issues of rape and racial inequality in the Depression-era South.",
+      "coverImageUrl": "https://example.com/to_kill_a_mockingbird_cover.jpg"
+  },
+  {
+      "title": "1984",
+      "author": "George Orwell",
+      "publishedYear": 1949,
+      "genre": ["Fiction", "Science Fiction", "Thriller"],
+      "language": "English",
+      "country": "United Kingdom",
+      "rating": 9.5,
+      "summary": "A dystopian social science fiction novel that explores the dangers of totalitarianism.",
+      "coverImageUrl": "https://example.com/1984_cover.jpg"
+  },
+  {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "publishedYear": 2011,
+      "genre": ["Non-Fiction", "Historical"],
+      "language": "English",
+      "country": "Israel",
+      "rating": 8.5,
+      "summary": "Explores the history of humankind from the Stone Age to the modern age.",
+      "coverImageUrl": "https://example.com/sapiens_cover.jpg"
+  },
+  {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publishedYear": 1951,
+      "genre": ["Fiction"],
+      "language": "English",
+      "country": "United States",
+      "rating": 8,
+      "summary": "A young man struggles with alienation, loss, and the meaning of life.",
+      "coverImageUrl": "https://example.com/catcher_in_the_rye_cover.jpg"
+  },
+  {
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "publishedYear": 1925,
       "genre": ["Fiction", "Romance"],
       "language": "English",
       "country": "United States",
-      "rating": 8.1,
-      "summary": "A tale of love, wealth, and the American Dream set during the Roaring Twenties.",
-      "coverImageUrl": "https://example.com/the_great_gatsby.jpg"
-    },
-    {
+      "rating": 9,
+      "summary": "A novel about the American Dream and the life of Jay Gatsby.",
+      "coverImageUrl": "https://example.com/great_gatsby_cover.jpg"
+  },
+  {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "publishedYear": 1988,
+      "genre": ["Fiction", "Fantasy"],
+      "language": "Portuguese",
+      "country": "Brazil",
+      "rating": 9.2,
+      "summary": "A young shepherd’s journey to discover the treasure hidden in the Egyptian pyramids.",
+      "coverImageUrl": "https://example.com/alchemist_cover.jpg"
+  },
+  {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "publishedYear": 2018,
+      "genre": ["Biography"],
+      "language": "English",
+      "country": "United States",
+      "rating": 8.5,
+      "summary": "The memoir of former First Lady Michelle Obama, detailing her life and career.",
+      "coverImageUrl": "https://example.com/becoming_cover.jpg"
+  },
+  {
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
       "publishedYear": 1997,
-      "genre": ["Fantasy"],
+      "genre": ["Fantasy", "Fiction"],
       "language": "English",
       "country": "United Kingdom",
-      "rating": 9.3,
-      "summary": "The magical journey of a young wizard at Hogwarts School of Witchcraft and Wizardry.",
-      "coverImageUrl": "https://example.com/harry_potter_sorcerers_stone.jpg"
-    },
-    {
-      "title": "The Da Vinci Code",
-      "author": "Dan Brown",
-      "publishedYear": 2003,
-      "genre": ["Mystery", "Thriller"],
-      "language": "English",
-      "country": "United States",
-      "rating": 7.6,
-      "summary": "A gripping mystery thriller involving hidden secrets and religious symbolism.",
-      "coverImageUrl": "https://example.com/the_da_vinci_code.jpg"
-    },
-    {
+      "rating": 10,
+      "summary": "A young boy discovers he is a wizard and embarks on an adventure at a magical school.",
+      "coverImageUrl": "https://example.com/harry_potter_cover.jpg"
+  },
+  {
       "title": "The Power of Habit",
       "author": "Charles Duhigg",
       "publishedYear": 2012,
-      "genre": ["Non-Fiction", "Self-help"],
+      "genre": ["Self-help"],
       "language": "English",
       "country": "United States",
-      "rating": 8.4,
-      "summary": "Explores the science behind habits and how they can be changed to transform lives.",
-      "coverImageUrl": "https://example.com/the_power_of_habit.jpg"
-    }
-  ]
-  
-  
+      "rating": 8.7,
+      "summary": "Explores the science behind habit formation and how we can change our habits.",
+      "coverImageUrl": "https://example.com/power_of_habit_cover.jpg"
+  },
+  {
+    "title": "Shoe Dog",
+    "author": "Phil Knight",
+    "publishedYear": 2016,
+    "genre": ["Biography", "Non-Fiction"],
+    "language": "English",
+    "country": "United States",
+    "rating": 8.9,
+    "summary": "The memoir of Phil Knight, the co-founder of Nike, detailing the creation and rise of one of the most iconic sports brands in the world.",
+    "coverImageUrl": "https://example.com/shoe_dog_cover.jpg"
+},
+{
+  "title": "Lean In: Women, Work, and the Will to Lead",
+  "author": "Sheryl Sandberg",
+  "publishedYear": 2013,
+  "genre": ["Non-Fiction", "Self-help"],
+  "language": "English",
+  "country": "United States",
+  "rating": 8.7,
+  "summary": "Sheryl Sandberg's book explores why women’s progress in achieving leadership roles has stalled and offers practical advice to help women achieve their career goals and become leaders.",
+  "coverImageUrl": "https://example.com/lean_in_cover.jpg"
+}
+
+]
