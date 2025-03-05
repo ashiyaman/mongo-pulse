@@ -9,9 +9,9 @@ const movieSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    genre: [{
+    genre: {
         type: String
-    }],
+    },
     title: {
         type: String,
         required: true

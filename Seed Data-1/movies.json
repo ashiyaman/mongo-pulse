@@ -9,7 +9,7 @@
     "rating": 8.6,
     "plot": "A poor family schemes to become employed by a wealthy family by posing as unrelated, highly qualified individuals.",
     "awards": "Won 4 Oscars",
-    "genre": "Thriller, Drama",
+    "genre": "Thriller",
     "posterUrl": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
     "trailerUrl": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
     },
@@ -23,7 +23,7 @@
   "rating": 9.0,
   "plot": "When the menace known as the Joker emerges, he wreaks havoc on Gotham.",
   "awards": "Won 2 Oscars",
-  "genre": "Action, Crime, Drama",
+  "genre": "Action",
   "posterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
   "trailerUrl": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
   },
@@ -37,7 +37,7 @@
   "rating": 9.2,
   "plot": "The patriarch of an organized crime dynasty transfers control to his son.",
   "awards": "Won 3 Oscars",
-  "genre": "Crime, Drama",
+  "genre": "Crime",
   "posterUrl": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
   "trailerUrl": "https://www.youtube.com/watch?v=sY1S34973zA"
   },
@@ -51,7 +51,7 @@
   "rating": 8.6,
   "plot": "A team of explorers travel through a wormhole in space to ensure humanity's survival.",
   "awards": "Won 1 Oscar",
-  "genre": "Sci-Fi, Adventure, Drama",
+  "genre": "Sci-Fi",
   "posterUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
   "trailerUrl": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
   },
@@ -79,7 +79,7 @@
   "rating": 8.8,
   "plot": "A thief who enters the dreams of others to steal secrets is given a chance to have his past crimes forgiven.",
   "awards": "Won 4 Oscars",
-  "genre": "Sci-Fi, Action, Adventure",
+  "genre": "Sci-Fi",
   "posterUrl": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
   "trailerUrl": "https://www.youtube.com/watch?v=YoHD9XEInc0"
   },
@@ -93,7 +93,7 @@
     "rating": 8.9,
     "plot": "A young man and woman fall in love on a Europe trip.",
     "awards": "Filmfare Award for Best Film",
-    "genre": "Romance, Drama",
+    "genre": "Romance",
     "posterUrl": "https://image.tmdb.org/t/p/w500/ktejodbcdCPXbMMdnpI9BUxW6O8.jpg",
     "trailerUrl": "https://www.youtube.com/watch?v=c25GKl5VNeY"
     }
